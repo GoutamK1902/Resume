@@ -87,13 +87,15 @@ p {
 }
 
 .skill-box>.progress {
-    width: 50%;
+    width: 40%;
+    height: 10px;
     background-color: #d8d8d8;
     outline: 1px solid #2c2c2c5f;
 }
 
-.skill-box>p {
-    width: 45%;
+.skill-box p {
+    font-size: 12px;
+    width: 50%;
     font-weight: 500;
 }
 
