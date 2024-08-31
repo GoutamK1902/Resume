@@ -1,0 +1,103 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-weight: 800;
+}
+
+.sub-heading {
+    font-size: 1.2rem;
+    text-indent: 18px;
+    /* text-decoration: underline; */
+    font-weight: 600;
+}
+
+.details>address {
+    margin-bottom: 5px;
+    font-family: cursive, Arial, Helvetica, sans-serif;
+    ;
+    font-size: 16px;
+}
+
+.email {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-bottom: 5px;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.links {
+    /* width: 50%; */
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    column-gap: 10px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #009dff;
+}
+
+.hobbies li {
+    list-style: none;
+}
+
+.profile li {
+    font-size: 18px;
+}
+
+.edu>h5,
+p {
+    text-indent: 20px;
+}
+
+.edu>p {
+    font-size: 18px;
+}
+
+p {
+    padding: 0;
+    margin: 5px 0;
+
+}
+
+.light-text {
+    font-weight: 100;
+    text-align: start;
+}
+
+.edu-desc {
+    font-weight: 500;
+}
+
+.skill-box {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    justify-content: space-between;
+}
+
+.skill-box>.progress {
+    width: 50%;
+    background-color: #d8d8d8;
+    outline: 1px solid #2c2c2c5f;
+}
+
+.skill-box>p {
+    width: 45%;
+    font-weight: 500;
+}
+
+.progress-bar {
+    background-color: #168eda;
+    ;
+}
